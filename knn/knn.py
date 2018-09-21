@@ -17,6 +17,7 @@ def classify(in_x, date_set, labels, k):
 
 
 if __name__ == '__main__':
+    a = ((array([1, 4]) - array([3, 4])) ** 2).sum(axis=1) ** 0.5
     group = array([[1.0, 1.1], [1.0, 1.0], [0, 0], [0, 0.1]])
     label_arr = ['A', 'A', 'B', 'B']
     test_x = [0, 0]
